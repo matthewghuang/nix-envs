@@ -1,10 +1,10 @@
 with (import <nixpkgs> {});
 
 mkShell {
-    buildInputs = [
-        nodejs
-        yarn
-        git
-				tmux
-    ];
+	buildInputs = [
+		nodejs
+		yarn
+		git
+		tmux
+	];
 }
